@@ -1,7 +1,6 @@
 
 LEIAME - VISUALIZADOR DE GRAFO COM ALGORITMOS DE BUSCA
-Nomes: Gabriel Moraes da Silva. R.A: 10100720
-       Marcio William. R.A: 10093303
+By.: Gabriel Moraes da Silva. 
 =======================================================
 
 DESCRIÇÃO DO PROJETO
