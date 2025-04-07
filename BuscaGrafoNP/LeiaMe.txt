@@ -56,18 +56,19 @@ PASSO A PASSO PARA EXECUTAR O PROGRAMA
 IMPORTANTE: A avaliação da aplicação será realizada seguindo os passos apresentados neste arquivo.
 
 1. Certifique-se de que os seguintes arquivos estão na mesma pasta ou organizados corretamente:
-   - main.py
+   - principalComGUI.py
    - buscaGrafoNP.py
    - listaDEnc.py
    - node.py
    - romenia.txt (pode estar na subpasta BuscaGrafoNP/)
+   //-principalBuscaSemPesosGrafo.py(esse arquivo nao importa, mantive para poder me ajudar na hora de programar)
 
 2. Abra um terminal ou prompt de comando.
 
 3. Navegue até a pasta onde o arquivo main.py está localizado.
 
 4. Execute o programa com o seguinte comando:
-   python main.py
+   python principalComGUI.py
 
 5. Na interface que será exibida:
    - Escolha um nó de origem (estado inicial).
