@@ -1,0 +1,95 @@
+
+LEIAME - VISUALIZADOR DE GRAFO COM ALGORITMOS DE BUSCA
+Nomes: Gabriel Moraes da Silva. R.A: 10100720
+       Marcio William. R.A: 10093303
+=======================================================
+
+DESCRIÇÃO DO PROJETO
+--------------------
+Este projeto é uma aplicação em Python com interface gráfica (Tkinter) que permite a visualização de um grafo fixo e a execução de diferentes algoritmos de busca para encontrar o caminho entre dois nós.
+
+ALGORITMOS DISPONÍVEIS:
+- Busca em Largura (Amplitude)
+- Busca em Profundidade
+- Busca em Profundidade Limitada
+- Aprofundamento Iterativo
+- Busca Bidirecional
+
+REQUISITOS
+----------
+- Python 3.x instalado
+- Não é necessário instalar bibliotecas externas (somente bibliotecas padrão do Python são utilizadas)
+   OBS.: Caso esteja no linux vai ser necessario seguir os seguintes passo de instalacao do tkinter:
+   sudo apt update
+   sudo apt install python3-tk
+   Apos a instalacao vai tudo funcionar
+
+ESTRUTURA DOS ARQUIVOS
+----------------------
+O projeto é composto pelos seguintes arquivos:
+
+- principalComGUI.py: Interface gráfica principal
+- buscaGrafoNP.py: Implementações dos algoritmos de busca
+- listaDEnc.py: Estrutura de dados de lista encadeada para representar o grafo
+- node.py: Classe de definição de um nó
+- romenia.txt: Arquivo de texto com as arestas do grafo (cada linha representa uma ligação entre dois nós)
+
+FORMATO DO ARQUIVO "romenia.txt"
+--------------------------------
+Exemplo de conteúdo:
+Arad Zerind
+Arad Sibiu
+Sibiu Fagaras
+...
+Cada linha contém dois nomes de cidades separados por espaço, representando uma aresta bidirecional entre os nós.
+
+FORMATO DO ARQUIVO "grafo.txt"
+--------------------------------
+A B
+A C
+B D
+B E
+...
+
+
+PASSO A PASSO PARA EXECUTAR O PROGRAMA
+--------------------------------------
+IMPORTANTE: A avaliação da aplicação será realizada seguindo os passos apresentados neste arquivo.
+
+1. Certifique-se de que os seguintes arquivos estão na mesma pasta ou organizados corretamente:
+   - main.py
+   - buscaGrafoNP.py
+   - listaDEnc.py
+   - node.py
+   - romenia.txt (pode estar na subpasta BuscaGrafoNP/)
+
+2. Abra um terminal ou prompt de comando.
+
+3. Navegue até a pasta onde o arquivo main.py está localizado.
+
+4. Execute o programa com o seguinte comando:
+   python main.py
+
+5. Na interface que será exibida:
+   - Escolha um nó de origem (estado inicial).
+   - Escolha um nó de destino (estado final).
+   - Selecione um dos algoritmos de busca disponíveis no menu suspenso.
+   - Clique no botão “Buscar”.
+
+6. Visualização:
+   - O grafo será exibido com todos os nós e arestas.
+   - O nó de origem será destacado em verde.
+   - O nó de destino será destacado em vermelho.
+   - O caminho encontrado será destacado em azul claro.
+
+7. Clique no botão "Limpar" para redefinir a visualização e realizar uma nova busca.
+
+OBSERVAÇÕES
+-----------
+- O grafo é gerado com posições aleatórias dos nós a cada execução.
+- A interface usa apenas bibliotecas padrão do Python (como tkinter, random, math, etc).
+- Em caso de erro na leitura do arquivo ou nomes de nós inválidos, mensagens de erro serão exibidas na interface.
+
+CONTATO
+-------
+Projeto desenvolvido como parte de estudo de algoritmos de busca para disciplina de Inteligência Artificial.
